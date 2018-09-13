@@ -1,0 +1,24 @@
+{
+    "name": "mariopereira/mp-mercadopago-api",
+    "description": "PHP implementation of Mercado Pago API",
+    "type": "library",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Mário Pereira",
+            "email": "bin.to.hex@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 7.0",
+        "ext-curl": "*",
+        "lib-curl": "*",
+        "lib-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mariopereira\\MercadoPagoApi\\": "src/"
+        }
+    }
+}
